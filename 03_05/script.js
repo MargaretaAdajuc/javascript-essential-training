@@ -20,3 +20,8 @@ const backpack = {
     this.strapLength.right = lengthRight;
   },
 };
+
+let query = "color";
+console.log(backpack);
+console.log(backpack.pocketNum);
+console.log(backpack[query]);
