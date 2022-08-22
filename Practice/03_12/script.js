@@ -6,3 +6,19 @@
  * - Create several objects using the class.
  * - Test the objecs by calling their properties and using their methods in the console.
  */
+
+import Desk from "./Desk.js";
+
+const workDesk = new Desk(
+  "Work desk",
+  150,
+  100,
+  5,
+  "pink",
+  "blue",
+  "heart",
+  true
+);
+
+console.log("Work desk: ", workDesk);
+console.log("Sticker shape: ", workDesk.drawerContents.stickyNotesShape);
