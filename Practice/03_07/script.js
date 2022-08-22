@@ -24,4 +24,9 @@ const desk = {
   },
 };
 
-console.log(desk);
+console.log("This desk contains:", desk);
+console.log("This desk's length is:", desk.length);
+console.log(
+  "The sticky notes are in shape of:",
+  desk.drawerContents.stickyNotesShape
+);
