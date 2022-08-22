@@ -7,10 +7,8 @@ document
   .querySelectorAll("button")
   .forEach((item) => (item.style.color = "magenta"));
 
-let feature = document.querySelectorAll(".feature");
+let feature = document.querySelector(".feature");
 
-let color = (feature.document.querySelector(
-  ".feature backpack__color"
-).style.color = "YELLOW");
+let color = feature.querySelectorAll(".feature > span");
 
 console.log(color);
